@@ -1,0 +1,315 @@
+{
+  "image": [
+    {
+      "abbr": "JPEG",
+      "description": "Joint Photographic Experts Group",
+      "extensions": [".jpg", ".jpeg", ".jfif"]
+    },
+    {
+      "abbr": "PNG",
+      "description": "Portable Network Graphics",
+      "extensions": [".png"]
+    },
+    {
+      "abbr": "GIF",
+      "description": "Graphics Interchange Format",
+      "extensions": [".gif"]
+    },
+    {
+      "abbr": "TIFF",
+      "description": "Tagged Image File Format",
+      "extensions": [".tif", ".tiff"]
+    },
+    {
+      "abbr": "BMP",
+      "description": "Bitmap Image File",
+      "extensions": [".bmp"]
+    },
+    {
+      "abbr": "WEBP",
+      "description": "Web Picture Format",
+      "extensions": [".webp"]
+    },
+    {
+      "abbr": "HEIC",
+      "description": "High Efficiency Image Container",
+      "extensions": [".heic"]
+    },
+    {
+      "abbr": "SVG",
+      "description": "Scalable Vector Graphics",
+      "extensions": [".svg"]
+    },
+    {
+      "abbr": "ICO",
+      "description": "Icon Image File",
+      "extensions": [".ico"]
+    }
+  ],
+  "videos": [
+    {
+      "abbr": "MP4",
+      "description": "MPEG-4 Part 14",
+      "extensions": [".mp4", ".m4v"]
+    },
+    {
+      "abbr": "AVI",
+      "description": "Audio Video Interleave",
+      "extensions": [".avi"]
+    },
+    {
+      "abbr": "MOV",
+      "description": "QuickTime Movie File",
+      "extensions": [".mov", ".qt"]
+    },
+    {
+      "abbr": "MKV",
+      "description": "Matroska Video File",
+      "extensions": [".mkv"]
+    },
+    {
+      "abbr": "WEBM",
+      "description": "Web Movie File",
+      "extensions": [".webm"]
+    },
+    {
+      "abbr": "WMV",
+      "description": "Windows Media Video",
+      "extensions": [".wmv"]
+    },
+    {
+      "abbr": "FLV",
+      "description": "Flash Video File",
+      "extensions": [".flv", ".f4v"]
+    },
+    {
+      "abbr": "3GP",
+      "description": "3GPP Multimedia File",
+      "extensions": [".3gp", ".3g2"]
+    }
+  ],
+  "audio": [
+    {
+      "abbr": "MP3",
+      "description": "MPEG Audio Layer III",
+      "extensions": [".mp3"]
+    },
+    {
+      "abbr": "WAV",
+      "description": "Waveform Audio File Format",
+      "extensions": [".wav"]
+    },
+    {
+      "abbr": "FLAC",
+      "description": "Free Lossless Audio Codec",
+      "extensions": [".flac"]
+    },
+    {
+      "abbr": "AAC",
+      "description": "Advanced Audio Coding",
+      "extensions": [".aac"]
+    },
+    {
+      "abbr": "OGG",
+      "description": "Ogg Vorbis Audio File",
+      "extensions": [".ogg", ".oga"]
+    },
+    {
+      "abbr": "M4A",
+      "description": "MPEG-4 Audio File",
+      "extensions": [".m4a"]
+    },
+    {
+      "abbr": "WMA",
+      "description": "Windows Media Audio",
+      "extensions": [".wma"]
+    },
+    {
+      "abbr": "AIFF",
+      "description": "Audio Interchange File Format",
+      "extensions": [".aif", ".aiff"]
+    }
+  ],
+  "document": [
+    {
+      "abbr": "PDF",
+      "description": "Portable Document Format",
+      "extensions": [".pdf"]
+    },
+    {
+      "abbr": "DOCX",
+      "description": "Microsoft Word Open XML Document",
+      "extensions": [".docx"]
+    },
+    {
+      "abbr": "DOC",
+      "description": "Microsoft Word Document",
+      "extensions": [".doc"]
+    },
+    {
+      "abbr": "TXT",
+      "description": "Plain Text File",
+      "extensions": [".txt"]
+    },
+    {
+      "abbr": "RTF",
+      "description": "Rich Text Format",
+      "extensions": [".rtf"]
+    },
+    {
+      "abbr": "ODT",
+      "description": "OpenDocument Text Document",
+      "extensions": [".odt"]
+    },
+    {
+      "abbr": "HTML",
+      "description": "HyperText Markup Language",
+      "extensions": [".html", ".htm"]
+    },
+    {
+      "abbr": "MD",
+      "description": "Markdown Document",
+      "extensions": [".md"]
+    }
+  ],
+  "spreadsheets": [
+    {
+      "abbr": "XLSX",
+      "description": "Microsoft Excel Open XML Spreadsheet",
+      "extensions": [".xlsx"]
+    },
+    {
+      "abbr": "XLS",
+      "description": "Microsoft Excel Spreadsheet",
+      "extensions": [".xls"]
+    },
+    {
+      "abbr": "CSV",
+      "description": "Comma-Separated Values",
+      "extensions": [".csv"]
+    },
+    {
+      "abbr": "ODS",
+      "description": "OpenDocument Spreadsheet",
+      "extensions": [".ods"]
+    },
+    {
+      "abbr": "TSV",
+      "description": "Tab-Separated Values",
+      "extensions": [".tsv"]
+    }
+  ],
+  "presentations": [
+    {
+      "abbr": "PPTX",
+      "description": "Microsoft PowerPoint Open XML Presentation",
+      "extensions": [".pptx"]
+    },
+    {
+      "abbr": "PPT",
+      "description": "Microsoft PowerPoint Presentation",
+      "extensions": [".ppt"]
+    },
+    {
+      "abbr": "ODP",
+      "description": "OpenDocument Presentation",
+      "extensions": [".odp"]
+    },
+    {
+      "abbr": "KEY",
+      "description": "Apple Keynote Presentation",
+      "extensions": [".key"]
+    }
+  ],
+  "archieves": [
+    {
+      "abbr": "ZIP",
+      "description": "Zip Compressed Archive",
+      "extensions": [".zip"]
+    },
+    {
+      "abbr": "RAR",
+      "description": "Roshal Archive Compressed file",
+      "extensions": [".rar"]
+    },
+    {
+      "abbr": "7Z",
+      "description": "7-Zip Compressed File",
+      "extensions": [".7z"]
+    },
+    {
+      "abbr": "TAR",
+      "description": "Consolidated Unix File Archive",
+      "extensions": [".tar"]
+    },
+    {
+      "abbr": "GZ",
+      "description": "Gnu Zipped Archive",
+      "extensions": [".gz"]
+    },
+    {
+      "abbr": "BZ2",
+      "description": "Bzip2 Compressed File",
+      "extensions": [".bz2"]
+    }
+  ],
+  "ebook": [
+    {
+      "abbr": "EPUB",
+      "description": "Electronic Publication",
+      "extensions": [".epub"]
+    },
+    {
+      "abbr": "MOBI",
+      "description": "Mobipocket eBook",
+      "extensions": [".mobi"]
+    },
+    {
+      "abbr": "AZW",
+      "description": "Amazon Kindle eBook Format",
+      "extensions": [".azw", ".azw3"]
+    },
+    {
+      "abbr": "FB2",
+      "description": "FictionBook",
+      "extensions": [".fb2"]
+    },
+    {
+      "abbr": "LIT",
+      "description": "Microsoft Reader eBook",
+      "extensions": [".lit"]
+    }
+  ],
+  "vectors": [
+    {
+      "abbr": "SVG",
+      "description": "Scalable Vector Graphics",
+      "extensions": [".svg"]
+    },
+    {
+      "abbr": "EPS",
+      "description": "Encapsulated PostScript",
+      "extensions": [".eps"]
+    },
+    {
+      "abbr": "AI",
+      "description": "Adobe Illustrator Artwork",
+      "extensions": [".ai"]
+    },
+    {
+      "abbr": "CDR",
+      "description": "CorelDRAW Image File",
+      "extensions": [".cdr"]
+    },
+    {
+      "abbr": "EMF",
+      "description": "Enhanced Metafile",
+      "extensions": [".emf"]
+    },
+    {
+      "abbr": "WMF",
+      "description": "Windows Metafile",
+      "extensions": [".wmf"]
+    }
+  ]
+}

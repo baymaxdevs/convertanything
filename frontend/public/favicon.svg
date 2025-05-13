@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="64" height="64" rx="12" fill="#0A0E17"/>
+
+  <!-- Circular orbit -->
+  <circle cx="32" cy="32" r="24" stroke="url(#paint1_linear)" stroke-width="2" stroke-opacity="0.8"/>
+
+  <!-- Arrow 1 (top to right) -->
+  <path d="M32 14 L46 32 L32 14" stroke="#8E24AA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Arrow 2 (right to bottom) -->
+  <path d="M46 32 L32 50 L46 32" stroke="#00BCD4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Arrow 3 (bottom to left) -->
+  <path d="M32 50 L18 32 L32 50" stroke="#8E24AA" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Arrow 4 (left to top) -->
+  <path d="M18 32 L32 14 L18 32" stroke="#00BCD4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Center circle -->
+  <circle cx="32" cy="32" r="6" fill="url(#paint3_radial)"/>
+
+  <!-- Definitions for gradients -->
+  <defs>
+    <linearGradient id="paint1_linear" x1="8" y1="32" x2="56" y2="32" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8E24AA"/>
+      <stop offset="1" stop-color="#00BCD4"/>
+    </linearGradient>
+
+    <radialGradient id="paint3_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(32 32) rotate(90) scale(6)">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#AB47BC"/>
+    </radialGradient>
+  </defs>
+</svg>

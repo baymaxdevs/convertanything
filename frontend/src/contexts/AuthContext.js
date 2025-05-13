@@ -1,0 +1,1 @@
+// The AuthContext.js file has been removed as authentication is no longer part of the application.

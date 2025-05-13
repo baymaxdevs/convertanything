@@ -1,0 +1,21 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+    // Allow public read access to files in the public_uploads folder
+    match /public_uploads/{userId}/{fileName} {
+      allow read: if true;
+      allow write: if request.auth != null || request.auth == null;
+    }
+    
+    // Allow public read access to files in the public_conversions folder
+    match /public_conversions/{userId}/{fileName} {
+      allow read: if true;
+      allow write: if request.auth != null || request.auth == null;
+    }
+    
+    // Default rule - deny all other access
+    match /{allPaths=**} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}
